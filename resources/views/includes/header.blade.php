@@ -25,8 +25,8 @@
         </h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('facility') }}">Pages</a></li>
                 @if (Request::is('about'))
                     <li class="breadcrumb-item text-white active" aria-current="page">About Us</li>
                 @elseif (Request::is('classes'))
