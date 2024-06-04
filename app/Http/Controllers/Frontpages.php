@@ -7,43 +7,43 @@ use Illuminate\Http\Request;
 class Frontpages extends Controller
 {
     public function home(){
-        $title = "Home";
+        $title = "Kider preSchool website";
         return view('home', compact('title'));
     }
     public function team(){
-        $title = "Home";
+        $title = "Popular Teachers";
         return view('team', compact('title'));
     }
     public function error(){
-        $title = "Home";
+        $title = "404 Error";
         return view('error', compact('title'));
     }
     public function about(){
-        $title = "Home";
+        $title = "About Us";
         return view('about', compact('title'));
     }
     public function appointment(){
-        $title = "Home";
+        $title = "Appointment";
         return view('appointment', compact('title'));
     }
-    public function calltoaction(){
-        $title = "Home";
-        return view('calltoaction', compact('title'));
+    public function callToAction(){
+        $title = "Become A Teachers";
+        return view('callToAction', compact('title'));
     }
     public function classes(){
-        $title = "Home";
+        $title = "Classes";
         return view('classes', compact('title'));
     }
     public function contact(){
-        $title = "Home";
+        $title = "Contact Us";
         return view('contact', compact('title'));
     }
     public function facility(){
-        $title = "Home";
+        $title = "School Facilities";
         return view('facility', compact('title'));
     }
     public function testimonial(){
-        $title = "Home";
+        $title = "Appointment";
         return view('testimonial', compact('title'));
     }
 }
